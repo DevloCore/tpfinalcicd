@@ -60,7 +60,7 @@ pipeline {
                     sh """
                     echo "PORT=5000" > .env
                     echo "MONGO_URI=${MONGO_URI}" >> .env
-                    docker compose up -d
+                    docker compose -p tpfinalcicd up -d api
                     """
                 }
             }
