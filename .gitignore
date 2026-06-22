@@ -1,2 +1,6 @@
 grille_notation.pdf
 info.pdf
+
+node_modules/
+coverage/
+.env
