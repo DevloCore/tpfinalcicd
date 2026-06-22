@@ -4,8 +4,6 @@ const Task = require('./models/Task');
 const app = express();
 app.use(express.json());
 
-const a = 1;
-
 // GET /health
 app.get('/health', (req, res) => {
   res.status(200).json({
