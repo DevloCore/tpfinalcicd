@@ -4,3 +4,5 @@ info.pdf
 node_modules/
 coverage/
 .env
+
+rendu/captures.pdf
